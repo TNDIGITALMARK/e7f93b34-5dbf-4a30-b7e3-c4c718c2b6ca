@@ -7,6 +7,7 @@ import { ZyloProvider } from "@/lib/zylo/provider";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { Decorations } from "@/components/layout/Decorations";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,8 +20,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elegant Flora Boutique",
-  description: "Beautiful AI-powered website creation platform",
+  title: "SpongeBob Secrets Hub - Discover Hidden Jokes & Lore",
+  description: "Dive deep into Bikini Bottom's mysteries! Discover hidden jokes, Easter eggs, and secret lore from SpongeBob SquarePants episodes.",
 };
 
 export default function RootLayout({
@@ -45,7 +46,10 @@ export default function RootLayout({
               disableTransitionOnChange
             >
               <TooltipProvider>
-                {children}
+                <Decorations />
+                <div className="relative z-10">
+                  {children}
+                </div>
                 <Toaster />
                 <Sonner />
               </TooltipProvider>

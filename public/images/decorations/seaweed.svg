@@ -1,0 +1,7 @@
+<svg width="40" height="100" viewBox="0 0 40 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Seaweed decoration matching the reference design -->
+  <path d="M20 100C20 100 15 90 12 75C9 60 8 45 10 30C12 15 16 5 20 0C20 0 24 5 26 20C28 35 27 50 25 65C23 80 20 100 20 100Z" fill="#4CAF50" opacity="0.7"/>
+  <path d="M15 85C15 85 12 75 11 60C10 45 11 30 13 20C14 15 16 10 18 8C18 8 19 12 19 20C19 30 18 45 17 60C16 75 15 85 15 85Z" fill="#66BB6A" opacity="0.6"/>
+  <ellipse cx="12" cy="45" rx="3" ry="8" fill="#81C784" opacity="0.5" transform="rotate(-15 12 45)"/>
+  <ellipse cx="25" cy="55" rx="3" ry="8" fill="#81C784" opacity="0.5" transform="rotate(15 25 55)"/>
+</svg>
